@@ -1,0 +1,18 @@
+import java.util.*;
+public class First
+{
+     
+     public static void main(String[] arg)
+    {
+     
+            int a, b, c; 
+           for (a=0, b=1, c=0;c<=90;c=a+b)
+           {     
+                a = b;
+                b = c; 
+                System.out.print (b+" ");
+                 
+           }
+    }   
+     
+}    
